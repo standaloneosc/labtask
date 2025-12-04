@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Results and generated files
+results/figures/*.png
+results/*.json
+*.pytorch.json
+
+# vLLM build artifacts
+vllm/build/
+vllm/dist/
+vllm/*.egg-info/
+vllm/.deps/
+vllm/**/*.so
+vllm/**/_C*.so
+vllm/**/_moe_C*.so
+vllm/**/_flashmla*.so
+vllm/**/_rocm_C*.so
+vllm/cumem_allocator*.so
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Model cache (optional - uncomment if you don't want to commit models)
+# models/
+# .cache/
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Profiler outputs
+profile_*.json
+*.prof
+
+# Keep results directory structure but ignore contents
+!results/.gitkeep
+!results/figures/.gitkeep
+

@@ -1,0 +1,3 @@
+# This file ensures the figures directory is tracked by git
+# Actual figure files (*.png) are ignored by .gitignore
+
